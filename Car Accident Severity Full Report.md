@@ -10,19 +10,16 @@ For the accurate prediction of the severity of accidents, a considerable number 
 
 
 ## B. Methodology
-As a database, I used GitHub repository in my study. My master data which has the main components Borough, Average House Price, Latitude and Longitude informations of the city.
+As a database, I used GitHub repository in my study. My master data which has the main components Severity Code, Weather Elements, Light Condition, Junction Type and Collission Type. For classification problems, matplotlib is extensively used the supervised algorithm. The primary perspective of this algorithm is predicting the value of the desired variable by learning decision rules deduced from the features of the data and create a model of that. A root node is designated for the construction of this model based on the best attribute picked by the gain approach and the sub-nodes are then generated on the basis of the decision taken in relation to the status of quality selected at each node. When each node is reduced to a single quality status, the class is determined at the end of the node; it is called a leaf. These courses of action continue recursively until a class is defined at the end of each node.
 
 
 ## C. Results
-Let’s merge those new variables with related cluster informations in our main master table.
-
-
-You can now see Join, Labels and Level_labels columns as the last three ones in above table. You can also see a clustered map boroughs of Istanbul in the below.
+In this research paper, I have determined the performance of each algorithm, for four accident severity classes (Fatal / Grievous /Simple Injury/ Motor Collision). By overall performance, Ada-Boost gives the best result because of its iterative classification on matplotlib.
 
 
 ## D. Discussion
-As I mentioned before, Istanbul is a big city with a high population density in a narrow area. The total number of measurements and population densities of the 39 districts in total can vary. As there is such a complexity, very different approaches can be tried in clustering and classification studies. Moreover, it is obvious that not every classification method can yield the same high quality results for this metropol.
+We observe that most of the accidents in our dataset are Fatal and value for the other three classes is very low. For that reason in our second experiment, we merge Grievous, Simple Injury, Motor Collision these three accident severity classes into one class. Therefore, we have attained the performances of the proposed approaches for two accident severity classes (Fatal / Grievous). In this experiment, we have noticed that the accuracy of interpolated data get increased and remain the same. But it is also mentionable that, the performance is much better than the previous experiment as precision and F1 score increased here in a noticeable way. Besides this, we did experiment with the features in our dataset and have tried to find out their effect on a traffic accident. Statistically I have found that based on the condition of some features the number of accidents gets increased. It’s a significant noticeable thing for making proper steps to decrease the number of accidents.
 
 
 ## F. Conclusion
-As a result, people are turning to big cities to start a business or work. For this reason, people can achieve better outcomes through their access to the platforms where such information is provided. Not only for investors but also city managers can manage the city more regularly by using similar data analysis types or platforms.
+As a result, people are turning to big cities to start a business or work. From the above table, we can see that servere car accidents occurs frequently under clear and dry condition at intersection. Besides, speeding is also an important factor leading the accident happen.
