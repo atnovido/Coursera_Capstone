@@ -7,9 +7,4 @@ Road Accident is the most undesirable and unexpected thing to occur to a road us
 
 
 ### A.2. Data Description
-To consider the problem we can list the datas as below:
-
-I found the Second-level Administrative Divisions of the Turkey from Spatial Data Repository of NYU [2]. The .json file has coordinates of the all city of Turkey. I cleaned the data and reduced it to city of Istanbul where I used it to create choropleth map of Housing Sales Price Index of Istanbul.
-I used Forsquare API to get the most common venues of given Borough of Istanbul [3].
-There are not too many public datas related to demographic and social parameters for the city of Istanbul. Therefor you must set-up your own data tables in most cases. In this case, I collected latest per square meter Housing Sales Price (HSP) Averages for each Borough of Istanbul from housing retail web page [4].
-I used Google Map, ‘Search Nearby’ option to get the center coordinates of the each Borough. [5].
+For the accurate prediction of the severity of accidents, a considerable number of traffic accident records with full information is required to train by using the proposed approaches. In this research work, the authors have collected a dataset from the Traffic Bureau that consists of total 37,885 traffic accidents record from the year 2007-2017. The entire dataset will split into two parts- Training Dataset and Test Dataset. 70% of the whole dataset has been chosen randomly by using a python library as a training data set and the remaining 30% has been used as our test dataset. We have used the 70-30 ratio for splitting dataset because of its proven accuracy.
